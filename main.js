@@ -13,6 +13,13 @@ console.log(isNumberPositive(2))
 
 //  Write a function that takes a number of days and converts it into an age.
 
+const numberToDay = (number) => {
+    const age = number/365
+    return age
+}
+
+console.log(numberToDay(12))
+
 // Write a function that takes three numbers and returns the largest of the three numbers.
 
 // Write a function that takes an array of names and returns the last name from the array of names.
