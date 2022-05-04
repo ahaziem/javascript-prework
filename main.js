@@ -29,4 +29,24 @@ console.log(largestNumber(100,15,30))
 
 // Write a function that takes an array of names and returns the last name from the array of names.
 
+let names = ["Sam","Kelly","Junior","Michelle"]
+
+const returnLastName = (names) => {
+    const lastName = names[names.length - 1]
+    return lastName
+}
+console.log(lastName)
+
 // Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+
+// let listOfNumber = [1,2,3,4,5]
+
+// const arrayOfNumber = (numbers) => {
+// if (listOfNumber >= 0)
+//     return "true"
+// } 
+// else if (listOfNumber <= 0) {
+//     return "false"
+// }
+
+// console.log(arrayOfNumber)
