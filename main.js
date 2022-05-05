@@ -14,7 +14,7 @@ isNumberPositive(2)
 //  Write a function that takes a number of days and converts it into an age.
 
 const numberToAge = (numberOfDays) => {
-    const age = numberOfDays/365
+    const age = parseInt(numberOfDays/365)
     console.log(`${age} years old!`)
     return age
 }
@@ -47,8 +47,7 @@ let listOfNumbers = [1,2,-3,4,5]
 
 const arrayOfNumber = (numbers) => {
     numbers.forEach(number => {
-        console.log(number)
-        if(number >= 0) {
+        if (number >= 0) {
             return console.log(true)
         } else {
             return console.log(false)
