@@ -46,28 +46,31 @@ returnLastName(names);
 
 // Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
 
-let listOfNumbers = [1,-2,3,4,5]
+let listOfNumbers = [10,9,-10]
 
 // const arrayOfNumber = (numbers) => {
-//     numbers.forEach(number => {
-//         if (number >= 0) {
+//     numbers.forEach(numbers => {
+//         if (numbers >= 0) {
 //             return console.log(true)
 //         } else {
 //             return console.log(false)
 //         }
 //     })
 // }
+
 // arrayOfNumber(listOfNumbers)
 
 const arrayOfNumber = (numbers) => {
-    for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] >= 0) {
+    numbers.some(numbers => {
+        if (numbers >= 0) {
             return console.log(true)
         } else {
             return console.log(false)
         }
-    }
+    })
 }
+
 arrayOfNumber(listOfNumbers)
+
 
 
